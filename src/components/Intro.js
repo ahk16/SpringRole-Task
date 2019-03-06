@@ -85,7 +85,7 @@ export default class Profile extends React.Component{
                                 <Col xs="2" style={{align:"right"}}><a><img src={"/images/blockchain.png"} alt= "" width={100} /></a></Col>
                             </Row><br /> <br/> <br />
                         </Container> <hr />
-                        <Button color="link">{this.state.profileInfo.url}{' '}<img src={"/images/link.png"} width={"15px"} height={"15px"} alt="" /></Button>
+                        <a href="https://springrole.com/kartik"><Button color="link">{this.state.profileInfo.url}{' '}<img src={"/images/link.png"} width={"15px"} height={"15px"} alt="" /></Button></a>
                         
                         <Container/>
                     </CardBody>
